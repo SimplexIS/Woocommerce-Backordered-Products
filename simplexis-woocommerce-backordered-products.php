@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SimplexIS Woocommerce backorderd products
  * Description: This plugin will create a submenu page, showing a table of all backordered products.
- * Version: 0.1
+ * Version: 1.0
  * Author: SimplexIS
  * Author URI: http://simplexis.nl/
  * License: GPLv3
