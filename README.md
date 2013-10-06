@@ -6,4 +6,6 @@ This Wordpress plugin will create a submenu page, showing a table of all backord
 Setup
 -----
 
-For now, you can install this plugin by placing the php file in wp-content/plugins. I'll try to connect GitHub and the Wordpress repository later.
+From now on, this plugin is available from the official Wordpress repository: http://wordpress.org/plugins/simplexis-woocommerce-backordered-products/
+
+Both GitHub and Wordpress.org are kept up to date.
