@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SimplexIS Woocommerce backorderd products
  * Description: This plugin will create a submenu page, showing a table of all backordered products.
- * Version: 1.0
+ * Version: 1.1
  * Author: SimplexIS
  * Author URI: http://simplexis.nl/
  * License: GPLv3
@@ -28,6 +28,7 @@ function simplexis_woocommerce_backordered_products_page() {
 		WHERE ".$wpdb->prefix."woocommerce_order_itemmeta.meta_key =  'Backordered'
 		AND ".$wpdb->prefix."woocommerce_order_itemmeta.order_item_id = ".$wpdb->prefix."woocommerce_order_items.order_item_id
 		AND ".$wpdb->prefix."woocommerce_order_items.order_id = ".$wpdb->prefix."posts.ID
+		AND ".$wpdb->prefix."posts.post_status NOT LIKE 'trash'
 		"
 		, ARRAY_A);
 
